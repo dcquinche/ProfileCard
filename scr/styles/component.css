@@ -1,0 +1,67 @@
+#component {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-color: hsl(0, 0%, 100%);
+    width: 330px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    color: hsl(224, 21%, 14%);
+    position:absolute;
+    z-index: 1;
+}
+
+#profileImg {
+    border: 5px solid white;
+    border-radius: 50px;
+}
+
+#topImage {
+    width: 330px;
+    border-radius: 20px 20px 0 0;
+    padding: 0;
+}
+
+#topCard {
+    position: relative;
+    margin-bottom: 1em;
+}
+
+#profile {
+    position: absolute;  
+    left: 50%;
+    top: 50%;                         
+    transform: translate(-50%, -50%);
+}
+
+#name {
+    padding-top: 2em;
+}
+
+p, span {
+    color: hsl(219, 12%, 42%);
+}
+
+p {
+    font-size: 15px;
+}
+
+#line {
+    width: 330px;
+    height: 5px;
+    border-bottom: 1px solid hsl(205, 33%, 90%);
+}
+
+#stadistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.singleStadistic {
+    margin-right: 1em;
+}
+
+
