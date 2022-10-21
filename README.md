@@ -16,7 +16,7 @@
 
 ### The challenge
  Users should be able to:
- Be able to Watch the card component regardless of the screen size (mobile or desktop).
+ Be able to watch the card component regardless of the screen size (mobile or desktop).
 
 ### Screenshot
 
@@ -40,7 +40,7 @@ First we organized the HTML structure for the mobile design and we added the lay
 
 ### What I learned
 
-- How to add a icon to the browser tab.
+- How to add an icon to the browser tab.
 
 ```
 <link rel="icon" type="image/x-icon" href="../scr/images/favicon.png">
